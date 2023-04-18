@@ -38,7 +38,11 @@ const Header = (props) => {
             <nav className="header-nav"> 
                 <Typography paddingRight={2} color='secondary.light'><Link to="/">Dashboard</Link></Typography>
                 <Typography paddingRight={2} color='secondary.light'><Link to="/journal">Journal</Link></Typography>
-                <Typography paddingRight={2} color='secondary.light'><Link to="/events">Events</Link></Typography>
+
+                <Typography paddingRight={2} color='secondary.light'><Link to="/events">Concerts</Link></Typography>
+
+               
+
                 <Typography paddingRight={2} color='secondary.light'><Link to="/weather">Weather</Link></Typography>
                 <Typography color='secondary.light'><Link to="/profile">Profile</Link></Typography>
                 
