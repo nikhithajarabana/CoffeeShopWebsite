@@ -1,0 +1,8 @@
+.message-display-main {
+  min-height: 200px;
+}
+.message-display-main .redirect-link {
+  background-color: #F2DED5;
+  text-decoration: none;
+  color: #1e5a97;
+}/*# sourceMappingURL=MessageDisplay.css.map */

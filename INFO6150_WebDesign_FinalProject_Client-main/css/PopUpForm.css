@@ -1,0 +1,13 @@
+.popup-dialog-title {
+  display: flex;
+  justify-content: center;
+  background-color: #03045E;
+}
+
+.popup-dialog-content {
+  background-color: #03045E;
+}
+
+.popup-dialog-footer {
+  background-color: #03045E;
+}/*# sourceMappingURL=PopUpForm.css.map */
