@@ -1,6 +1,6 @@
 
 import './Loader.scss'
-import Loader from '../../Assets/Images/loader.gif'
+import Loader from '../../Assets/Images/beerloader.gif'
 
 
 //loader component to call the loader on page load
