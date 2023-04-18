@@ -1,0 +1,13 @@
+.activity-slider-main .scroll-option {
+  align-items: center;
+  justify-content: center;
+}
+.activity-slider-main .scroll-option .scroll-option-icon {
+  cursor: pointer;
+}
+
+.scroll-div {
+  overflow-x: auto;
+  width: "100%";
+  padding: 16px 0px;
+}/*# sourceMappingURL=FavoriteActivitySlider.css.map */

@@ -1,0 +1,55 @@
+.modal-container {
+  color: #F2DED5;
+  font-family: "Regular";
+}
+.modal-container .modal-wrapper {
+  background-color: #03045E;
+  width: 500px;
+}
+.modal-container .modal-wrapper .modal-content {
+  padding: 26px 24px !important;
+  background-color: #F2DED5;
+}
+.modal-container .modal-wrapper .food-search {
+  width: 100%;
+}
+.modal-container .save-button-div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.modal-container .save-button-div .sub-btn {
+  width: 35%;
+  padding: 10px 0;
+}
+
+.food-items-wrapper {
+  padding: 20px 0;
+}
+.food-items-wrapper .total-calories {
+  display: flex;
+  justify-content: flex-end;
+}
+.food-items-wrapper .food-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding: 10px 0 10px 30px;
+}
+.food-items-wrapper .food-item .wrap {
+  display: flex;
+  align-items: center;
+}
+.food-items-wrapper .food-item .food-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.food-items-wrapper .food-item .food-name {
+  padding: 0 30px;
+}
+.food-items-wrapper .food-item .food-cal {
+  padding-right: 10px;
+}/*# sourceMappingURL=ModalBox.css.map */

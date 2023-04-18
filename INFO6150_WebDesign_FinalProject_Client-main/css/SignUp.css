@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "semi bold";
+  src: url("../../Assets/Fonts/JosefinSans-SemiBold.ttf");
+}
+.signUp-outer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100vh;
+  overflow: auto;
+  border: 2px black;
+}
+.signUp-outer-container .left-container {
+  grid-column: 1/span 2;
+  grid-row: 1/span 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-color: #af0000;
+}
+.signUp-outer-container .left-container .left-inner {
+  grid-column: 3/span 2;
+  grid-row: 2/span 4;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 0 25px #03045E;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.signUp-outer-container .left-container .left-inner .logo-container {
+  grid-column: 1/span 2;
+  grid-row: 2/span 2;
+  background-image: url("./../../Assets/Images/fa-logo-beige.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.signUp-outer-container .right-container {
+  grid-column: 3/span 3;
+  grid-row: 1/span 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-color: rgba(250, 185, 154, 0.4);
+  opacity: 100%;
+}
+.signUp-outer-container .right-container .right-inner {
+  grid-column: 1/span 3;
+  grid-row: 2/span 4;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 0 25px #03045E;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.signUp-outer-container .right-container .right-inner form {
+  grid-column: 1/span 2;
+  grid-row: 2/span 11;
+}
+.signUp-outer-container .right-container .right-inner form h1 {
+  text-align: center;
+  color: #af0000;
+}
+.signUp-outer-container .right-container .right-inner form p {
+  color: #af0000;
+}
+.signUp-outer-container .right-container .right-inner form .userName_email_Container, .signUp-outer-container .right-container .right-inner form .passwordContainer, .signUp-outer-container .right-container .right-inner form .dob_gender_container, .signUp-outer-container .right-container .right-inner form .frst_lst_names_container {
+  display: grid;
+  padding: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.signUp-outer-container .right-container .right-inner form .userName_Container, .signUp-outer-container .right-container .right-inner form .passcode, .signUp-outer-container .right-container .right-inner form .dob_container, .signUp-outer-container .right-container .right-inner form .frst_name_container, .signUp-outer-container .right-container .right-inner form .email_Container, .signUp-outer-container .right-container .right-inner form .lst_name_container {
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 0.5rem;
+  width: 80%;
+  justify-self: center;
+}
+.signUp-outer-container .right-container .right-inner form .userName_Container label, .signUp-outer-container .right-container .right-inner form .passcode label, .signUp-outer-container .right-container .right-inner form .dob_container label, .signUp-outer-container .right-container .right-inner form .frst_name_container label, .signUp-outer-container .right-container .right-inner form .email_Container label, .signUp-outer-container .right-container .right-inner form .lst_name_container label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #af0000;
+  font-family: "semi bold";
+  font-size: medium;
+}
+.signUp-outer-container .right-container .right-inner form .userName_Container input, .signUp-outer-container .right-container .right-inner form .passcode input, .signUp-outer-container .right-container .right-inner form .dob_container input, .signUp-outer-container .right-container .right-inner form .frst_name_container input, .signUp-outer-container .right-container .right-inner form .email_Container input, .signUp-outer-container .right-container .right-inner form .lst_name_container input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 25px;
+  width: 100%;
+  border: 2px solid #af0000;
+  background-color: rgba(250, 185, 154, 0.4);
+  font-family: "semi bold";
+  color: #03045E;
+  font-size: medium;
+}
+.signUp-outer-container .right-container .right-inner form .email_Container, .signUp-outer-container .right-container .right-inner form .lst_name_container {
+  grid-column: 2;
+}
+.signUp-outer-container .right-container .right-inner form .dob_container div {
+  border: #af0000;
+}
+.signUp-outer-container .right-container .right-inner form .radioButtonsContainer {
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.signUp-outer-container .right-container .right-inner form .radioButtonsContainer label {
+  color: #af0000;
+  font-family: "semi bold";
+}
+.signUp-outer-container .right-container .right-inner form .questionAnswerContainer, .signUp-outer-container .right-container .right-inner form .SignUp-Container {
+  display: grid;
+  padding: 5px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.5fr;
+}
+.signUp-outer-container .right-container .right-inner form .questionContainer, .signUp-outer-container .right-container .right-inner form .button-container {
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 45px;
+}
+.signUp-outer-container .right-container .right-inner form .questionContainer label, .signUp-outer-container .right-container .right-inner form .button-container label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #af0000;
+  font-family: "semi bold";
+  font-size: medium;
+}
+.signUp-outer-container .right-container .right-inner form .questionContainer input, .signUp-outer-container .right-container .right-inner form .button-container input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 25px;
+  width: 550px;
+  border: 2px solid #af0000;
+  color: rgba(250, 185, 154, 0.4);
+  font-family: "semi bold";
+}
+.signUp-outer-container .right-container .right-inner form .questionContainer div, .signUp-outer-container .right-container .right-inner form .button-container div {
+  color: #af0000;
+}
+.signUp-outer-container .right-container .right-inner form .answerContainer {
+  grid-column: 1;
+  grid-row: 2;
+  padding-left: 50px;
+}
+.signUp-outer-container .right-container .right-inner form .answerContainer label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #af0000;
+}
+.signUp-outer-container .right-container .right-inner form .answerContainer input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 25px;
+  width: 570px;
+  border: none;
+  border: 2px solid #af0000;
+  background-color: rgba(250, 185, 154, 0.4);
+  font-family: "semi bold";
+  font-size: medium;
+  color: #03045E;
+}
+.signUp-outer-container .right-container .right-inner form .button-container {
+  text-align: center;
+}
+.signUp-outer-container .right-container .right-inner form .button-container button {
+  background-color: #af0000;
+  color: #a8bdc3;
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+  border-color: #af0000;
+  cursor: pointer;
+  font-size: medium;
+  font-family: "semi bold";
+}
+.signUp-outer-container .right-container .right-inner form .button-container h4, .signUp-outer-container .right-container .right-inner form .button-container a {
+  color: #af0000;
+}/*# sourceMappingURL=SignUp.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../client/src/components/MessageDisplay/MessageDisplay.scss","MessageDisplay.css","../client/src/Styles/_variables.scss"],"names":[],"mappings":"AAEA;EACI,iBAAA;ACDJ;ADEI;EACI,yBEEc;EFDd,qBAAA;EACA,cEGG;ADHX","file":"MessageDisplay.css"}

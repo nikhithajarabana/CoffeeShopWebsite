@@ -1,0 +1,94 @@
+.events-container {
+  background-color: #F2DED5;
+  padding-bottom: 10px;
+  height: 100%;
+}
+.events-container .not-result {
+  color: #03045E;
+  font-family: "SemiBold";
+  height: 100vh;
+}
+.events-container .event-title {
+  color: #03045E;
+  margin: 0;
+  padding: 40px 0 20px 0;
+}
+.events-container .card-wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  padding: 20px;
+  margin: 60px;
+  cursor: pointer;
+  background-color: #03045E;
+  color: #F2DED5;
+  border-radius: 10px;
+}
+.events-container .card-wrapper .left-part {
+  margin-right: 30px;
+}
+.events-container .card-wrapper .left-part img {
+  width: 300px;
+  height: 200px;
+}
+.events-container .card-wrapper .right-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.events-container .card-wrapper .right-part .card-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.events-container .card-wrapper .right-part .card-title h2 {
+  color: #af0000;
+}
+.events-container .card-wrapper .right-part .card-title div {
+  color: #af0000;
+  font-family: "SemiBold";
+}
+.events-container .card-wrapper .right-part span {
+  font-family: "Regular";
+}
+.events-container .card-wrapper .right-part .right-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.events-container .card-wrapper .right-part .right-bottom a {
+  text-decoration: none;
+  font-family: "Regular";
+  color: #af0000;
+  cursor: pointer;
+}
+.events-container .card-wrapper .right-part .right-bottom .event-button {
+  background-color: #cc3d38;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #F2DED5;
+  font-family: "Regular";
+}
+.events-container .card-wrapper .right-part .info {
+  height: 60px;
+  text-align: left;
+}
+.events-container .card-wrapper .right-part p {
+  text-align: left;
+}
+.events-container .card-wrapper .right-part h2 {
+  text-decoration: none;
+  color: white;
+  margin: 0 0 5px 0;
+}
+
+.event-search-wrapper {
+  padding: 0 10px;
+}
+.event-search-wrapper .event-text-field {
+  width: 100%;
+}/*# sourceMappingURL=Events.css.map */
