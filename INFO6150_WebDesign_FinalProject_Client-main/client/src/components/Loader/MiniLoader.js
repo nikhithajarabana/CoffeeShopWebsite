@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material';
-import Loader from '../../Assets/Images/loader.gif';
+import Loader from '../../Assets/Images/beerloader.gif';
 import './Loader.scss'
 
 
