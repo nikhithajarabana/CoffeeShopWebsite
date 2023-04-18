@@ -1,0 +1,27 @@
+.leaderboard-ext {
+  padding: 16px 0px;
+}
+.leaderboard-ext .logo {
+  height: 350px;
+  width: 300px;
+}
+.leaderboard-ext .leaderboard-main {
+  max-height: 400px;
+  overflow: auto;
+}
+.leaderboard-ext .leaderboard-main .leaderboard-item {
+  padding: 16px 0px;
+}
+.leaderboard-ext .leaderboard-main .leaderboard-item .leaderboard-item-logo {
+  padding: 4px 24px 0px 0px;
+}
+.leaderboard-ext .leaderboard-main .leaderboard-item .leaderboard-item-logo .leaderboard-logo {
+  height: 45px;
+  width: 45px;
+}
+.leaderboard-ext .leaderboard-main .leaderboard-item .leaderboard-item-info {
+  padding-left: 16px;
+}
+.leaderboard-ext .leaderboard-main .leaderboard-item .leaderboard-item-info .leaderboard-item-info-logo {
+  padding: 0px 16px;
+}/*# sourceMappingURL=Leaderboard.css.map */

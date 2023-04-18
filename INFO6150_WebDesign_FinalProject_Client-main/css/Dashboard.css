@@ -1,0 +1,34 @@
+.dashboard-main {
+  background-color: #F2DED5;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #F2DED5;
+}
+.dashboard-main .divider {
+  border: 1px solid #03045E;
+  opacity: 0.2;
+}
+
+.dashboard-section-main {
+  padding: 16px 8px 48px 8px;
+}
+.dashboard-section-main .title-container {
+  padding: 8px 0px 24px 0px;
+}
+.dashboard-section-main .selector-container {
+  padding: 16px 16px;
+}
+
+.activity-slider-main .scroll-option {
+  align-items: center;
+  justify-content: center;
+}
+.activity-slider-main .scroll-option .scroll-option-icon {
+  cursor: pointer;
+}
+
+.scroll-div {
+  overflow-x: auto;
+  width: "100%";
+  padding: 16px 0px;
+}/*# sourceMappingURL=Dashboard.css.map */

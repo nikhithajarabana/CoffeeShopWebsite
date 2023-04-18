@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Regular";
+  src: local("JosefinSans"), url("./JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Italic";
+  src: local("JosefinSans"), url("./JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: "Bold";
+  src: local("JosefinSans"), url("./JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: "SemiBold";
+  src: local("JosefinSans"), url("./JosefinSans-SemiBold.ttf");
+}
+.container {
+  position: relative;
+}
+
+.backgroundImage {
+  display: flex;
+}
+
+.searchBox {
+  padding: 3%;
+  font-size: 1.5em;
+  color: rgba(250, 185, 154, 0.4);
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 32%;
+  padding: 10px;
+  width: 35%;
+  margin-bottom: 3%;
+  font-size: 0.7em;
+  color: #a8bdc3;
+  background-color: rgba(66, 36, 12, 0.2);
+  border: 1px solid #a8bdc3;
+  border-radius: 4px;
+  font-family: "SemiBold";
+}
+.input::-moz-placeholder {
+  color: #a8bdc3;
+  background-color: none;
+  font-size: 0.8em;
+  font-family: "SemiBold";
+}
+.input::placeholder {
+  color: #a8bdc3;
+  background-color: none;
+  font-size: 0.8em;
+  font-family: "SemiBold";
+}
+
+.currentTemp {
+  font-size: 5rem;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.currentWeather {
+  width: 15%;
+  justify-content: center;
+  background-color: rgba(66, 36, 12, 0.2);
+}
+
+.currentWeatherDiv {
+  justify-content: center;
+  display: flex;
+  margin-top: -50px;
+}
+
+.currentWeatherDetailsDiv {
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.everydayWeather {
+  width: 200px;
+  margin: 2% 2%;
+  background-color: rgba(66, 36, 12, 0.2);
+}
+
+.everydayWeatherDiv {
+  justify-content: center;
+  display: flex;
+}
+
+.maxTemp {
+  font-size: 2.5em;
+}
+
+.minTemp {
+  font-size: 1.5em;
+  padding-top: 10%;
+}/*# sourceMappingURL=Weather.css.map */

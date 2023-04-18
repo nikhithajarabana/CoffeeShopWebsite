@@ -1,0 +1,18 @@
+.health-form {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.health-form span {
+  padding: 10px 40px 30px 0;
+}
+.health-form .text-field {
+  width: 300px;
+  padding-bottom: 50px;
+}
+.health-form .submit-btn {
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 0;
+}/*# sourceMappingURL=SleepWaterInput.css.map */
