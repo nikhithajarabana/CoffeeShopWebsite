@@ -11,7 +11,7 @@
    
     .left-container{
 
-        @include loginLeftContainer(1,1,2,2,grid,$primary-red);
+        @include loginLeftContainer(1,1,2,2,grid,$white);
 
         .left-inner{
 
@@ -19,14 +19,14 @@
 
             .logo-container{
 
-                @include logoContainer(1, 2, 2, 2, "./../../Assets/Images/fa-logo-beige.png", 210px, no-repeat, center);
+                @include logoContainer(1, 2, 2, 2, "./../../Assets/Images/event-house-logo-g.png", 210px, no-repeat, center);
             }
         }
     }
 
     .right-container{
 
-        @include loginRightContainer(3, 3, 1, 2, grid, $primary-beige-opacity, 100%);
+        @include loginRightContainer(3, 3, 1, 2, grid, $primary-purple, 100%);
 
         .right-inner{
 
@@ -74,7 +74,7 @@
                         height: 25px;
                         width: 100%;
                         border: 2px solid $primary-red;
-                        background-color: $primary-beige-opacity;
+                        background-color: $white;
                         font-family: 'semi bold';
                         color: $primary-brown;
                         font-size: medium;
@@ -152,11 +152,11 @@
                         height: 25px;
                         width: 550px;
                         border: 2px solid $primary-red;
-                        color: $primary-beige-opacity;
+                        color: $white;
                         font-family: 'semi bold';
                     }
                     div{
-                        color: $primary-red;
+                        color: $white;
                     }
                 }
                 
@@ -181,7 +181,7 @@
                         width: 570px;
                         border: none;
                         border: 2px solid $primary-red;
-                        background-color: $primary-beige-opacity;
+                        background-color: $white;
                         font-family: 'semi bold';
                         font-size: medium;
                         color: $primary-brown;
