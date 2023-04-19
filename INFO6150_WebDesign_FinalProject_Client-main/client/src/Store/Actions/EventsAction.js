@@ -22,7 +22,7 @@ export const setSavedEvents = (payload) => {
     }
 }
 
-export const getEventBriteEvents = (inputText = "boxing") => {
+export const getEventBriteEvents = (inputText = "music") => {
     return async (dispatch, getState) => { 
         try {
             dispatch(showLoaderAction())
