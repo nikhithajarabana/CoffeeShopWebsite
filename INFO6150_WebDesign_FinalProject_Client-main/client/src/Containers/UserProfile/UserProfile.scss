@@ -13,7 +13,7 @@
 }
 
 .styleHr{
-    border-top: 1px solid grey;
+    border-top: 1px solid black;
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -26,7 +26,7 @@
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: repeat(14, 1fr);
     height: 120vh;
-    background-color: $primary-beige-opacity;
+    background-color: #b694c7;
     .header{
         grid-column: 2 / span 12;
         grid-row : 1;
@@ -49,7 +49,7 @@
             grid-template-rows: repeat(8, 1fr);
             height: 100vh;
             p{
-                color: $primary-red;
+                color: $primary-black;
 
             }
             .header{
@@ -68,7 +68,7 @@
                 .userName_Container{
                     @include  userProfileColumnContainer (1,1,0.5rem, 80%, center);
                     input{   
-                        @include userProfileColInputContainer(block, 10px, none, 2px, 45px, 100%, solid, $primary-red, $primary-beige-opacity);
+                        @include userProfileColInputContainer(block, 10px, none, 2px, 45px, 100%, solid, $primary-black, $primary-beige-opacity);
                         font-family: 'semi bold';
                         font-size: medium;
                     }
@@ -113,7 +113,7 @@
                     div{
                         //height: 40px;
                         width: 102%;  
-                        color: $primary-red;
+                        color: $primary-black;
                     }
                 }
             }
@@ -123,7 +123,7 @@
                 .dob_container{
                     @include userProfileColumnContainer (1, 1, 0.5rem, 80%, center);
                     input{
-                        @include userProfileColInputContainer(block, 10px, none, 2px, 45px, 100%, solid, $primary-red, $primary-beige-opacity);
+                        @include userProfileColInputContainer(block, 10px, none, 2px, 45px, 100%, solid, $primary-black, $primary-beige-opacity);
                         font-family: 'semi bold';
                         font-size: medium;
                     }
@@ -135,7 +135,7 @@
                     div {
                         //height: 40px;
                         width: 102%;
-                        color: $primary-red;
+                        color: $primary-black;
                     }
                 }
             }
@@ -152,13 +152,13 @@
                         div {
                             //height: 40px;
                             width: 105%;
-                            color: $primary-red;
+                            color: $primary-black;
                         }
                     }
                     .in-container {
                         @extend .ft-container;
                         grid-column: 2;
-                        color: $primary-red;
+                        color: $primary-black;
                         justify-self: right;
                     }
                 }
@@ -169,7 +169,7 @@
                         @include userProfileColInputContainer(block, 10px, none, 2px, 45px, 100%, solid, $primary-red, $primary-beige-opacity);
                         font-family: 'semi bold';
                         font-size: medium;
-                        color: $primary-brown;
+                        color: $primary-black;
                     }
                 }  
             }
@@ -260,7 +260,7 @@
                         display: none;
                     }
                     button{
-                        @include styleButton($primary-red, $primary-beige, 30px, 125px, 5px);
+                        @include styleButton($white, $primary-beige, 30px, 125px, 5px);
                         margin-right: 5px;
                         height: 50px;
                         cursor: pointer;

@@ -90,7 +90,7 @@ const Events = (props) => {
 
   return isLoading ? <Loader/> : (
     <div className="events-container">
-      <h1 className="event-title">EVENTS</h1>
+      <h1 className="event-title">Concerts</h1>
       <EventSearchBar />
       {__renderEventCards()}
     </div>

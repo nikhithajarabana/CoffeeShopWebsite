@@ -8,7 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import TextareaAutosize from '@mui/material/TextareaAutosize';
 import {updateUserDetails} from './../../Store/Actions/LoginAction';
 import 'react-toastify/dist/ReactToastify.css';
-import {Countries, Genders, feet, inches} from './Utils.js';
+import {Countries, Genders} from './Utils.js';
 import axios from "axios";
 import MiniLoader from "../../components/Loader/MiniLoader";
 
@@ -41,9 +41,9 @@ class UserProfileComponent extends React.Component{
                 country: 'country',
                 dob: "",
                 gender: "",
-                feat: "",
-                inches: "",
-                weight: "",
+               // feat: "",
+                //inches: "",
+               // weight: "",
                 bio: '',
                 sendEmailVerification: false,
                 selectedImage : '',
@@ -62,9 +62,9 @@ class UserProfileComponent extends React.Component{
                 country: loggedInUserDetails["country"],
                 dob: loggedInUserDetails["dateOfBirth"].split("T")[0],
                 gender: loggedInUserDetails["gender"],
-                feet: loggedInUserDetails["feet"] ,
-                inches: loggedInUserDetails["inches"],
-                weight: loggedInUserDetails["weight"],
+              //  feet: loggedInUserDetails["feet"] ,
+              //  inches: loggedInUserDetails["inches"],
+              //  weight: loggedInUserDetails["weight"],
                 bio: loggedInUserDetails["bio"],
                 sendEmailVerification: false,
                 profileImageUrl: loggedInUserDetails["profilePicture"] 
@@ -147,27 +147,27 @@ class UserProfileComponent extends React.Component{
             }      
     }
 
-    validateWeight() {
-        if (this.state.weight) {
-            var lbs = /^\d{2,3}$/;
-            if (this.state.weight.match(lbs)) {
-                this.setState({
-                    weightError: ""
-                })
-                return true;
-            } else {
-                this.setState({
-                    weightError: "Invalid weight"
-                })
-                return false;
-            }
-        } else {
-            this.setState({
-                weightError: ""
-            })
-            return true;
-        }
-    }
+    //validateWeight() {
+       // if (this.state.weight) {
+         //   var lbs = /^\d{2,3}$/;
+          //  if (this.state.weight.match(lbs)) {
+            //    this.setState({
+             //       weightError: ""
+            //    })
+              //  return true;
+           // } else {
+              //  this.setState({
+                 //   weightError: "Invalid weight"
+              //  })
+               // return false;
+          //  }
+      //  } else {
+       //     this.setState({
+         //       weightError: ""
+         //   })
+         //   return true;
+       // }
+   // }
     
     validateEmail() {
 
@@ -195,9 +195,9 @@ class UserProfileComponent extends React.Component{
 
         let validatePhoneNumber = this.validatePhoneNumber();
         let validateEmail = this.validateEmail();
-        let validateWeight = this.validateWeight();
+      //  let validateWeight = this.validateWeight();
 
-        if(validatePhoneNumber && validateEmail && validateWeight){
+        if(validatePhoneNumber && validateEmail ){
 
             this.props.updateUserDetails(
                 { uuid: this.state.username, 
@@ -208,9 +208,9 @@ class UserProfileComponent extends React.Component{
                 gender : this.state.gender,
                 country : this.state.country,
                 dateOfBirth : this.state.dob,
-                feet : this.state.feet,
-                inches : this.state.inches,
-                weight : this.state.weight,
+               // feet : this.state.feet,
+                //inches : this.state.inches,
+               // weight : this.state.weight,
                 bio : this.state.bio,
                 profilePicture: this.state.profileImageUrl
                 });
@@ -229,9 +229,9 @@ class UserProfileComponent extends React.Component{
             country: loggedInUserDetails["country"],
             dob: loggedInUserDetails["dateOfBirth"].split("T")[0],
             gender: loggedInUserDetails["gender"],
-            feet: loggedInUserDetails["feet"],
-            inches: loggedInUserDetails["inches"],
-            weight: loggedInUserDetails["weight"],
+          //  feet: loggedInUserDetails["feet"],
+          //  inches: loggedInUserDetails["inches"],
+           // weight: loggedInUserDetails["weight"],
             bio: loggedInUserDetails["bio"],
             sendEmailVerification: false,
             profileImageUrl: loggedInUserDetails["profilePicture"]
@@ -318,49 +318,7 @@ class UserProfileComponent extends React.Component{
                                         </FormControl>
                                     </div>
                                 </div>
-                                <div className = "height_weight_container">
-                                    <div className = "height_container">
-                                        <div className='ft-container'>
-                                            <FormControl fullWidth>
-                                                <InputLabel id="demo-simple-select-label">ft.</InputLabel>
-                                                <Select
-                                                labelId="demo-simple-select-label"
-                                                id="demo-simple-select" 
-                                                name="feet"                                             
-                                                label="ft."
-                                                value={this.state.feet} 
-                                                onChange={this.handleChange.bind(this)}
-                                                >
-                                                {feet.map(function (foot, index) {
-                                                    return <MenuItem key={index} value={foot}>{foot}</MenuItem>
-                                                })}
-                                                </Select>
-                                            </FormControl>
-                                        </div>
-                                        <div className='in-container'>
-                                            <FormControl fullWidth>
-                                                <InputLabel id="demo-simple-select-label">in.</InputLabel>
-                                                <Select
-                                                labelId="demo-simple-select-label"
-                                                name="inches"
-                                                id="demo-simple-select"
-                                                label="in."
-                                                value={this.state.inches} 
-                                                onChange={this.handleChange.bind(this)}
-                                                >
-                                                {inches.map(function (inch, index) {
-                                                    return <MenuItem key={index} value={inch}>{inch}</MenuItem>
-                                                })}
-                                                </Select>
-                                            </FormControl>
-                                        </div>
-                                        
-                                    </div>
-                                    <div className = "weight_container">
-                                        <input type="text" name="weight" className="form-input" placeholder="lbs" value={this.state.weight} onChange={this.handleChange.bind(this)} />
-                                        {this.state.weightError && <p>{this.state.weightError}</p>}
-                                    </div>
-                                </div>
+                                
                                 <div className='bio-container'>
                                     <div className='textArea-Container'>
                                         <TextareaAutosize
