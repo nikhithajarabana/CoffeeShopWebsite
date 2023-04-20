@@ -3,8 +3,8 @@ import { Regular, Italic, Bold, SemiBold } from "./Assets/Fonts/Fonts.js";
 const mainTheme = createTheme({
     palette: {
       primary: {
-        main:'#cc3d38', //red
-        light: 'rgba(66,36,12,45%)', //brown opacity
+        main:'#8124de', //purple
+        light: 'rgba(66,36,12,45%)', //pink opacity
         contrastText: 'rgba(250, 185, 154, 40%)', //beige opacity
       },
 
