@@ -3,6 +3,7 @@ import cloudsImage from '../../Assets/Images/clouds.jpeg';
 import rainImage from '../../Assets/Images/rain.jpeg';
 import sunnyImage from '../../Assets/Images/sunny.jpeg';
 import snowImage from '../../Assets/Images/snow.jpeg';
+import mainImage from '../../Assets/Images/pexels-photo-1431822.webp'
 
 
 
@@ -20,6 +21,6 @@ export default function backGround(description, hour){
             return {nightImage}.nightImage;
         }
         else {
-            return {cloudsImage}.cloudsImage;
+            return {mainImage}.mainImage;
             }
     }

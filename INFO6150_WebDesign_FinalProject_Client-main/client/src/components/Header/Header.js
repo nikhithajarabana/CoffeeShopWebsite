@@ -1,7 +1,6 @@
 
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import './Header.scss'
-import AppLogo from "../../Assets/Images/fa-logo.svg"
 import { Button, IconButton, Typography } from "@mui/material";
 import { logout } from "../../Store/Actions/LoginAction";
 import { connect } from "react-redux";

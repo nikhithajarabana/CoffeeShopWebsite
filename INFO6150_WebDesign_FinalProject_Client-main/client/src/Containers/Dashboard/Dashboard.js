@@ -15,7 +15,9 @@ import weather from '../../Assets/Images/weather-cartoon.jpeg';
 
 function HomePage(props) {
   return (
+ 
     <div className="event-card">
+      
       <img style = {{width: "398px",height:"100px"}} src={props.image} alt="event" />
       <div className='card-body'>
       <h5 className="card-title" style={{fontSize: "24px", marginBottom: "10px"}}>{props.title}</h5>
