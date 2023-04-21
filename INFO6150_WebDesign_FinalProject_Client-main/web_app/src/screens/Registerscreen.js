@@ -100,6 +100,10 @@ export default function Registerscreen() {
   }
 
   return (
+    <div class="vh-100">
+  <div class="container-fluid h-custom wallpaper">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      
     <div>
       <div className="row justify-content-center ">
         <div className="col-md-5 mt-5">
@@ -158,9 +162,34 @@ export default function Registerscreen() {
               {" "}
               Click Here to Login
             </a>
+            
           </div>
         </div>
       </div>
+    </div>
+    </div>
+    <div
+    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
+   
+    <div class="text-white mb-3 mb-md-0">
+      Copyright © 2022. All rights reserved.
+    </div>
+    <div>
+      <a href="#!" class="text-white me-4">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#!" class="text-white me-4">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#!" class="text-white me-4">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="#!" class="text-white">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }

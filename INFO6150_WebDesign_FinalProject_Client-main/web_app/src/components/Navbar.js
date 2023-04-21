@@ -59,7 +59,7 @@ export default function Navbar() {
             ) : (
               <li className="nav-item text-light ">
                 <a className="nav-link text-light " href="/login">
-                  Login
+                  Sign In
                 </a>
               </li>
             )}
