@@ -2,7 +2,7 @@ const mongoose = require("mongoose");     //to import mongoose package
 
 const itemSchema = mongoose.Schema(        //creating item model schema
   {
-    id : {type:Integer, require},
+    
     name: { type: String, require },
     spicelevel: [],
     varients: [],
