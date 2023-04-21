@@ -30,15 +30,15 @@ export default function Filter() {
             className="form-control"
           >
             <option value="all"> ALL</option>
-            <option value="veg"> Veg</option>
-            <option value="nonveg"> Non-Veg</option>
-            <option value="desserts"> Desserts</option>
-            <option value="beverages"> Beverages </option>
+            <option value="espresso"> Espresso</option>
+            <option value="latte"> Latte</option>
+            <option value="donuts"> Donuts</option>
+            <option value="iced"> Iced </option>
           </select>
         </div>
         <div className="col-md-2">
           <button
-            className="btn mt-2 bg-primary text-light"
+            className="btn mt-2 bg-dark text-light"
             onClick={() => dispatch(filterItems(searchkey, category))}
           >
             {" "}

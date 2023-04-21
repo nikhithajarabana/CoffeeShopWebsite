@@ -110,7 +110,7 @@ const Additem = () => {
               setCategory(e.target.value);
             }}
           />
-          <button className="btn bg-primary mt-3" type="submit">
+          <button className="btn bg-dark mt-3" type="submit">
             Add Item
           </button>
         </form>

@@ -69,7 +69,7 @@ export default function Item({ item }) {
             {" "}
             Price: {item.prices[0][varient] * quantity}$
           </h1>
-          <button className="btn bg-primary text-light" onClick={addtocart}>
+          <button className="btn bg-secondary text-light" onClick={addtocart}>
             Add
           </button>
       </div>

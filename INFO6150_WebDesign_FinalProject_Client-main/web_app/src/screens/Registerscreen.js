@@ -150,11 +150,11 @@ export default function Registerscreen() {
               </div>
             </div>
 
-            <button onClick={register} className="btn mt-3 register-button pl-5 bg-primary">
+            <button onClick={register} className="btn mt-3 register-button pl-5 bg-dark">
               {" "}
               REGISTER{" "}
             </button>
-            <a className="btn login-button bg-primary" href="/login">
+            <a className="btn login-button bg-dark" href="/login">
               {" "}
               Click Here to Login
             </a>

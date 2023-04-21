@@ -60,7 +60,7 @@ export default function Checkout({ subtotal }) {   //use previous data for check
             >
 
                   
-                  <button className='btn bg-primary mt-3 text-light'>Pay Now</button>
+                  <button className='btn bg-dark mt-3 text-light'>Pay Now</button>
 
             </StripeCheckout>
             
