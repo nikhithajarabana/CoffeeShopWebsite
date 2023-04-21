@@ -1,11 +1,5 @@
 import '../Dashboard/Dashboard.scss';
 import React from 'react';
-import DashboardSection from '../Dashboard/DashboardSection';
-
-
-import { useEffect} from 'react';
-import { getHealthData} from '../../Store/Actions/JournalAction.js';
-import { connect } from 'react-redux';
 import beyonce from '../../Assets/Images/beyonce2.webp';
 import theatre from '../../Assets/Images/theatre.jpeg';
 import weather from '../../Assets/Images/weather-cartoon.jpeg';
@@ -15,10 +9,8 @@ import weather from '../../Assets/Images/weather-cartoon.jpeg';
 
 function HomePage(props) {
   return (
- 
-    <div className="event-card">
-      
-      <img style = {{width: "398px",height:"100px"}} src={props.image} alt="event" />
+    <div className="event-card">  
+      <img style = {{width: "398px",height:"170px"}} src={props.image} alt="event" />
       <div className='card-body'>
       <h5 className="card-title" style={{fontSize: "24px", marginBottom: "10px"}}>{props.title}</h5>
       <p className="card-text" style={{fontSize: "12px", marginBottom: "30px"}}>{props.description}</p>
@@ -32,14 +24,15 @@ function Events(props){
   const Events = [
     {
       title: 'Concerts',
-      description: 'Life Is Too Short. Buy Those Tickets To The Concert You Have Been Waiting To Go For So Long.We Have Made Your Life Easy By Curating A List Of Concerts Happening In Your Country .All You Have To Do Is Just Click On The Concert You Are Interested In Going And Book Those Tickets. You Dont Have To Browse Different Websites To Browse',
+      description: 'Life Is Too Short. Buy those Tickets To The Concert You Have Been Waiting To Go For So Long.We Have Made Your Life Easy By Curating A List Of Concerts Happening In Your Country .All You Have To Do Is Just Click On The Concert You Are Interested In Going And Book Those Tickets. You Dont Have To Browse Different Websites To Browse',
       buttonLink: '/events',
       buttonText: 'Explore',
       image: beyonce
     },
     {
-      title: 'Theatre',
-      description: 'Want To Be Mesmerized By Some Performances? Then Going To A Theatre Performance Is The Best Choice. Booking Your Tickets Is Just One Click Away.Theatre  is a collaborative form of performing art that uses live performers, usually actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage. The performers may communicate this experience to the audience through combinations of gesture, speech, song, music, and dance.',
+      title: 'About Us',
+      description: 'Know more about us here',
+      // description: 'Want To Be Mesmerized By Some Performances? Then Going To A Theatre Performance Is The Best Choice. Booking Your Tickets Is Just One Click Away.Theatre  is a collaborative form of performing art that uses live performers, usually actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage. The performers may communicate this experience to the audience through combinations of gesture, speech, song, music, and dance.',
       buttonLink: '/journal',
       buttonText: 'Explore',
       image: theatre
