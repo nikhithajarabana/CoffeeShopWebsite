@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");  //import mongoose package 
 
 var mongoURL =
-  "mongodb+srv://jarabanan:nikhithajarabana@cluster0.slafozy.mongodb.net/?retryWrites=true&w=majority";  //database connection string 
+  "mongodb+srv://tanuj:KHgX5ZwSu2ulLbBK@cluster0.dkqesjz.mongodb.net/test";  //database connection string 
 
 mongoose.connect(mongoURL, { useUnifiedTopology: true, useNewUrlParser: true });  //configure database connection parameter 
 
