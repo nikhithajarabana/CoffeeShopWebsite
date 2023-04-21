@@ -11,9 +11,9 @@ export default function Navbar() {
   //display responsive nav bar
   return (
     <div className="dummyDiv">
-      <nav className="navbar navbar-expand-lg p-3 mb-4 navbar-light bg-primary ">
-        <a className="navbar-brand text-light" href="/">
-          Yati South Indian Cuisine
+      <nav className="navbar navbar-expand-lg p-3 mb-4 navbar-light bg-dark ">
+        <a className="navbar-brand font-han-serif text-light" href="/">
+          Rise <mark>&</mark> Shine
         </a>
         <button
           className="navbar-toggler"
