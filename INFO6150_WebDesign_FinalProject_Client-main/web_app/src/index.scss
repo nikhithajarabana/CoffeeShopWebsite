@@ -51,7 +51,7 @@ h1 {
 
 .btn {
   background-color: $primary-color !important;
-  color: rgb(231, 235, 10) !important;
+  color: rgb(243, 243, 238) !important;
   width: 138px;
   height: 40px;
 }
@@ -195,11 +195,14 @@ height: 100%;
 }
 
 .wallpaper{
-  background: url("https://images.cdn.uniqueway.com/uploads/2017/09/07fd6e19-b01f-4c11-9a68-e23f05445d1c.jpg") no-repeat center center fixed;
+  background: url("https://plumislandcoffee.com/images/bg.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 .dummyDiv{
   height: 90px;
+}
+.d-flex{
+  width: 100%;
 }
 
