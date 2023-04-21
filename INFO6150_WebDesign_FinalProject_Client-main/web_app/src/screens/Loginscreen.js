@@ -77,9 +77,9 @@ return(
           </div>
 
           <div class="text-center text-lg-start pt-2">
-            <button type="button" class="btn bg-primary btn-lg mt-1 pt-1" onClick={login} >Login</button>
+            <button type="button" class="btn bg-dark text-light btn-lg mt-1 pt-1" onClick={login} >Login</button>
             <p class="medium fw-bold mt-2 pt-1 text-light left">Don't have an account? <a href="/register"
-                class="link-danger">Register</a></p>
+                class="link-danger fw-bold">Register</a></p>
           </div>
 
         </form>
@@ -87,7 +87,7 @@ return(
     </div>
   </div>
   <div
-    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
    
     <div class="text-white mb-3 mb-md-0">
       Copyright © 2022. All rights reserved.

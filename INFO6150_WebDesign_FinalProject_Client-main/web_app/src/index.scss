@@ -112,7 +112,7 @@ a{
   color: rgb(255, 255, 255) !important;
   border: none !important;
   text-decoration: none;
-  background-color: rgb(52, 91, 197) !important;  
+  background-color: rgba(52, 91, 197, 0.107) !important;  
   padding: 8px;
   margin-top: 50px;
   position: absolute;
@@ -171,7 +171,7 @@ margin-top :8px;
 }
 
 .order_item {
-  background-color: rgba(109, 188, 241, 0.904);
+  background-color: rgba(109, 188, 241, 0.07);
 }
 
 .order_placed {
