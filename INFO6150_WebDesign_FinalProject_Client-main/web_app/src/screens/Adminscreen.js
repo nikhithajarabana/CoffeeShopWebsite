@@ -28,7 +28,7 @@ const Adminscreen = () => {
                 <div className="col-md-10">
                     <h2>Admin Panel</h2>
 
-                    <ul className='adminfunctions'>
+                    <ul className='adminfunctions bg-dark'>
                         <li><Link to={'/admin/userslist'} className='link'>Users List</Link></li>
                         <li><Link to={'/admin/itemslist'} className='link'>Items List</Link></li>
                         <li><Link to='/admin/additem' className='link'>Add new item</Link></li>
