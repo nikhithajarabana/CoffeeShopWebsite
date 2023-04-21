@@ -1,1 +1,0 @@
-{"version":3,"sources":["../client/src/Containers/Leaderboard/Leaderboard.scss","Leaderboard.css"],"names":[],"mappings":"AAEA;EACI,iBAAA;ACDJ;ADEI;EACI,aAAA;EACA,YAAA;ACAR;ADEI;EACI,iBAAA;EACA,cAAA;ACAR;ADCQ;EACI,iBAAA;ACCZ;ADAY;EACI,yBAAA;ACEhB;ADDgB;EACI,YAAA;EACA,WAAA;ACGpB;ADAY;EACI,kBAAA;ACEhB;ADDgB;EACI,iBAAA;ACGpB","file":"Leaderboard.css"}
