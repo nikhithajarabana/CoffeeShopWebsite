@@ -4,7 +4,7 @@ const itemSchema = mongoose.Schema(        //creating item model schema
   {
     
     name: { type: String, require },
-    spicelevel: [],
+    sugarlevel: [],
     varients: [],
     prices: [],
     category: { type: String, require },
