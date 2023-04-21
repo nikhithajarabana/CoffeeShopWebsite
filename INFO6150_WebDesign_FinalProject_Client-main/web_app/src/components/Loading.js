@@ -1,11 +1,15 @@
 import React from "react";
 
-export default function Loading() {    //display loading spinner until we fetch data from api 
+import './loader.scss'
+
+
+//loader component to call the loader on page load
+const Header = () => {
   return (
-    <div>
-      <div className="spinner-border" role="status">
-        <span className="sr-only">Loading...</span>
-      </div>
-    </div>
-  );
+    <div className="loader-container"> 
+        <img alt="loader" src={"https://cdn.dribbble.com/users/2520294/screenshots/7209485/media/cf226d98a06282e9cabf5c2f8f6d547f.gif"} />
+    </div> 
+  )
+  
 }
+export default Header;
