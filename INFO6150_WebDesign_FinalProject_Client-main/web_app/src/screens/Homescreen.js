@@ -19,7 +19,7 @@ export default function Homescreen() {
 
   return (
     <div>
-      <h1>Have a look at our delicious menu</h1>
+      <h1><b>CHECK OUT OUR MENU FOR SOME DELICIOUS OPTIONS THAT WILL SATISFY YOUR CRAVINGS.</b></h1>
       <Filter />
       <div className="row justify-content-center">
         
