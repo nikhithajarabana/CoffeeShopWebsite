@@ -30,10 +30,10 @@ export default function Filter() {
             className="form-control"
           >
             <option value="all"> ALL</option>
-            <option value="espresso"> Espresso</option>
-            <option value="latte"> Latte</option>
-            <option value="donuts"> Donuts</option>
-            <option value="iced"> Iced </option>
+            <option value="coffee"> Coffee</option>
+            <option value="tea"> Tea</option>
+            <option value="sandwiches"> Sandwiches</option>
+            <option value="coldbrew"> Cold Brew </option>
           </select>
         </div>
         <div className="col-md-2">

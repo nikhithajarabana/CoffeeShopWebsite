@@ -33,9 +33,9 @@ export default function Item({ item }) {
 
       <div className="flex-container">
         <div className="w-100">
-          <p>Varients</p>
+          <p>Sizes</p>
           <select
-            className="varients-dropdown"
+            className="sizes-dropdown"
             value={varient}
             onChange={(e) => {
               setvarient(e.target.value);
@@ -70,7 +70,7 @@ export default function Item({ item }) {
             Price: {item.prices[0][varient] * quantity}$
           </h1>
           <button className="btn bg-secondary text-light" onClick={addtocart}>
-            Add
+            Add To Cart
           </button>
       </div>
       </div>
