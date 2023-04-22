@@ -29,10 +29,10 @@ const Adminscreen = () => {
                     <h2>Admin Panel</h2>
 
                     <ul className='adminfunctions bg-dark'>
-                        <li><Link to={'/admin/userslist'} className='link'>Users List</Link></li>
-                        <li><Link to={'/admin/itemslist'} className='link'>Items List</Link></li>
+                        <li><Link to={'/admin/userslist'} className='link'>Users</Link></li>
+                        <li><Link to={'/admin/itemslist'} className='link'>Items</Link></li>
                         <li><Link to='/admin/additem' className='link'>Add new item</Link></li>
-                        <li><Link to='/admin/orderslist' className='link'>Orders List</Link></li>
+                        <li><Link to='/admin/orderslist' className='link'>Orders</Link></li>
 
                     </ul>
                      {/* routes to different screens */}
