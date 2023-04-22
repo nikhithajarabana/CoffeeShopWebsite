@@ -41,7 +41,7 @@ const Orderslist = () => {
                                                 {order.isDelivered ? (
                                     <h1>Accepted</h1>
                                     ) : (
-                                    <button className="btn bg-primary" onClick={()=>{dispatch(deliverOrder(order._id))}}>Accept</button>
+                                    <button className="btn bg-dark" onClick={()=>{dispatch(deliverOrder(order._id))}}>Accept</button>
                                     )}
                                 </td>
                             </tr>
